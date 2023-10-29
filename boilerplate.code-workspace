@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+	
+		"liveSassCompile.settings.formats":[
+		
+		
+			{
+				"format": "compressed",
+				"extensionName": ".min.css",
+				"savePath": "~/../css/"
+			},
+			{
+			
+				"format": "expanded",
+				"extensionName": ".css",
+				"savePath": "~/../css/"
+			}
+			
+		],
+		"liveServer.settings.port": 5503
+
+		// "liveSassCompile.settings.excludeList": [ 
+		// 	"**/scss/bootstrap/**",
+		// 	".vscode/**" 
+		// ]
+		
+	}
+}
+
+// https://github.com/ritwickdey/vscode-live-sass-compiler/blob/master/docs/settings.md
